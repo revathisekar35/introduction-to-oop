@@ -26,6 +26,8 @@ public class ExecutionMain {
 		pingu.spin();
 		pingu.doTheCaterpillar();
 		pingu.jump();
+		pingu.parentChildDislpay();
+
 		parrot.speak();
 		parrot.fly();
 		parrot.spin();

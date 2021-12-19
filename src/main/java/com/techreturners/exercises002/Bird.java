@@ -3,6 +3,7 @@ package com.techreturners.exercises002;
 import com.techreturners.exercises005.DanceImpl;
 
 public abstract class Bird implements DanceImpl {
+
 	protected String name;
 	protected String color;
 
@@ -27,6 +28,10 @@ public abstract class Bird implements DanceImpl {
 
 	public void jump() {
 		System.out.println(name + " jump in the air!");
+	}
+
+	public void display() {
+		System.out.println("This is bird display");
 	}
 
 }

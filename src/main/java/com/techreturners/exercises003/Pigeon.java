@@ -4,6 +4,9 @@ import com.techreturners.exercises002.Bird;
 
 public class Pigeon extends Bird {
 
+	// all classes can access me
+	public String publicName = "public";
+
 	public Pigeon(String name, String color) {
 		super(name, color);
 	}
@@ -30,8 +33,4 @@ public class Pigeon extends Bird {
 		System.out.println("I am a " + name + " and my sound is " + mySound + "! and I have " + legs);
 	}
 
-	// This is private modifier we can't access out of the class.
-	private void feature() {
-		System.out.println("outside class cannot access me");
-	}
 }
