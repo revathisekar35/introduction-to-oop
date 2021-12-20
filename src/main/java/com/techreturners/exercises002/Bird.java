@@ -1,8 +1,8 @@
 package com.techreturners.exercises002;
 
-import com.techreturners.exercises005.DanceImpl;
+import com.techreturners.exercises005.Dance;
 
-public abstract class Bird implements DanceImpl {
+public abstract class Bird implements Dance {
 
 	protected String name;
 	protected String color;

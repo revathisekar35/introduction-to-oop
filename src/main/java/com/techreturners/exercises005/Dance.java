@@ -1,6 +1,6 @@
 package com.techreturners.exercises005;
 
-public interface DanceImpl {
+public interface Dance {
 
 	void spin();
 
